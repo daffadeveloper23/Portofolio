@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="./assets/styles/style-3.css">
+        <script src="https://kit.fontawesome.com/7f0d38f651.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="hero">
+            <header>
+                <a href="./index.html">Search</a>
+                <a href="./image.html">Image</a>
+                <img src="./assets/images/user-removebg-preview.png" alt="user">
+            </header>
+            <main>
+                <h3>Find pages with:</h3>
+                <form action="http://www.google.com/search?" class="form">
+                    <div class="search-box">
+                        <p class="term">all these words:</p>
+                        <input type="text"  name="as_q" class="search">
+                        <p class="hint">Type important words: tricolor rat terrier</p>
+                    </div>
+                    <div class="search-box">
+                        <p class="term">this exact word or phrase:</p>
+                        <input type="text"  name="as_epq" class="search">
+                        <p class="hint">Put quotation marks for the exact word: "rat terrier"</p>
+                    </div>
+                    <div class="search-box">
+                        <p class="term">any of these words:</p>
+                        <input type="text"  name="as_oq" class="search">
+                        <p class="hint">Type OR between all the words you want: miniature OR standard</p>
+                    </div>
+                    <div class="search-box">
+                        <p class="term">none of these words:</p>
+                        <input type="text"  name="as_eq" class="search">
+                        <p class="hint">Put a minus sign before the words you don't want: -rodent, -"Jack Russell"</p>
+                    </div>
+                    <div>
+                        <input type="submit" value="Advanced Search" class="button">
+                    </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>

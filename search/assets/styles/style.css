@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Poppins&family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: orange;
+    transition: .2s;
+}
+
+header > a, header > img {
+    margin-left: 30px;
+}
+
+main {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    top: 25vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google {
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    width: 500px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box i {
+    margin-right: 10px;
+}
+
+.search {
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: 0px;
+    background: transparent;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: gainsboro;
+    border: 1px solid gainsboro;
+}
+
+.button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
